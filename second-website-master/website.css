@@ -1,0 +1,346 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+background:linear-gradient(wheat,whitesmoke);
+background-position: center;
+background-size: cover;
+perspective:3000px;
+min-height: 100vh;
+max-height: auto;
+font-family: sans-serif;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.test{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    min-height: 500px;
+    max-height: auto;
+    max-width: 800px;
+    min-width: auto;
+    position: fixed;
+    transform-style: preserve-3d;
+    transition: all ease-in 0.7s; 
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    
+}
+img{
+    margin-top:-47px;
+    height: 270px;
+    position: absolute;
+    width: 260px;
+    margin-left: 70px;
+    
+}
+.man{
+    display: flex;
+    width:90px;
+    height: 30px;
+    margin-left: 28%;
+    position: absolute;
+}
+.topinfor{
+    border:hidden;
+    z-index: 6;
+    background-color: inherit;
+    margin-top:2px;
+    margin-left: 10px;
+}
+.a{
+    color: white;
+}
+#pop{
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+    border:2px solid white;
+    border-style: dotted;
+    background-color:inherit;
+    border-radius: 100%;
+    
+}
+#po{
+    margin-top:50px;
+    height: 120px;
+    width: 120px;
+    margin-top: -10vh;
+    background-color:wheat;
+    border-radius: 100%;
+    margin-left: 40px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    width: 350px;
+    background: rgb(22, 27, 68);
+    border-bottom-right-radius:50%;
+    border-top-left-radius:20%;
+    border-bottom-left-radius:10%;
+    margin-bottom: 20px;
+}
+#about{
+    margin-top:2px;
+    margin-right: 10px;
+    font-size:16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#expertise{
+    margin-top:40px;
+}
+.h2{
+    color: yellowgreen;
+    margin-left:120px;
+    font-size: 20px;
+    margin-top:10px;
+}
+.style{
+    position: relative;
+    float: right;
+    margin-top: 30%;
+    height:170px;
+    width:170px;
+    border-radius: 100%;
+    background-color:wheat;
+   margin-right: -19px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    margin-top: 10px;
+    margin-left:20px;
+    color: green;
+}
+.conta{
+    margin-top: 10px;
+    margin-left: 35px;
+}
+span{
+    color: green;
+    font-size:12px;
+}
+#ab{
+    margin-top:2px;
+    margin-left: 20px;
+   font-size: 17px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color:blue;
+    font-size:20px;
+    margin-left:10px;
+}
+#hello{
+    font-size: 17px;
+    margin-left: 70px;
+    margin-bottom: 2px;
+    margin-top:90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.front .left,.right{
+   height: 500px;
+    width: 400px;
+
+}
+
+.test.rotate {
+    transform:rotateY(180deg);
+ }
+ #portfo{
+     margin-top:30px;
+     border: hidden;
+     margin-left: 60px;
+     background:blue;
+     border-radius: 20px;
+     width: 130px;
+     height: 30px;
+     color:white;
+     font-size: 17px;
+     border-bottom: 4px solid yellowgreen;
+     cursor:pointer;
+ }
+ #portfo:active{
+     transform:translatey(4px)
+     border-bottom:none;
+ }
+.test .front{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 500px;
+    position:relative;
+    max-height: auto;
+   max-width: 800px;
+   min-width: auto;
+    backface-visibility: hidden;
+    background-color: white;
+    z-index: 2;
+    border-radius:10px;
+    overflow: hidden;
+}
+ .back{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    min-height: 500px;
+    max-height: auto;
+    backface-visibility: hidden;
+    max-width:800px;
+    min-width: auto;
+    background-color: white;
+    transform:rotateY(180deg);
+    border-radius:10px;
+}
+h2{
+    color: blue;
+    font-size:18px;
+}
+#work1{
+    margin-top:500px;
+}
+.project{
+width: 450px;
+height: 150px;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height:350px;
+overflow: hidden;
+overflow-y: scroll;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact{
+    margin-top: 10px;
+    height:390px;
+    margin-right:50px;
+    width:300px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    position:relation;
+   
+}
+#send{
+    background-color: blue;
+    color:white;
+    width:80%;
+    margin-top:10px;
+    height:30px;
+    border-radius:5px;
+    border:hidden;
+    cursor:pointer;
+    margin-bottom:5px;
+}
+ .work{
+width: 300px;
+height: auto;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+background-color: whitesmoke;
+margin: 10px;
+border-radius: 5px;
+}
+ 
+#no{
+    color:red;
+    font-size: 16px;
+}
+.work button{
+    z-index: 6;
+    width:20%;
+    margin-left: 10px;
+    border:hidden;
+    border-radius:10px;
+    background-color: whitesmoke;
+    margin-top:0px;
+    margin-bottom:5px;
+    cursor: pointer;
+}
+#p{
+    z-index: 3;
+    color: blue;
+    font-size:16px;
+}
+#home{
+    margin-top: 20px;
+    float: right;
+    width: 70px;
+    height:30px;
+    border-radius: 10px;
+    border: hidden;
+    border-bottom: 5px solid greenyellow;
+    color: white;
+    background: rgb(22, 27, 68);
+}
+
+b{
+    margin-top:10px;
+    color:green;
+    align-self: center;
+    font-size:12px;
+}
+p{
+    font-size:11px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact .form{
+    margin-top: 10px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:75%;
+    width:80%;
+    background-color:white;
+    border-radius:20px;
+    box-shadow:0px 0px 6px rgba(0,0,0,0.1);
+}
+.form input{
+    height:40px;
+    width: 80%;
+    border:hidden;
+    background-color: whitesmoke;
+    border-radius:5px;
+}
+textarea{
+    height:85px;
+    width:80%;
+    background-color: whitesmoke;
+    border:hidden;
+    border-radius:5px;
+}
+label{
+    margin-top:15px;
+
+}
+#h2{
+  color: blue;  
+  font-size:18px;
+  margin-top: -10px;
+}
+a{
+    border-radius: 20px;
+    text-decoration:none;
+    cursor:pointer;
+    color: blue;
+}
+
+#projects{
+   margin-top: -380px;
+   position:absolute;
+
+}
+
